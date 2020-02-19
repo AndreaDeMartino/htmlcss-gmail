@@ -40,6 +40,12 @@ header{
   color: red;
 }
 
+/* Dimensione di tutti gli input di tipo testo  */
+input[type="text"]
+{
+    font-size: 20px;
+}
+
 /* Messaggio Avviso email */
 #unread{
   margin-top: 10px;
@@ -73,8 +79,20 @@ header{
 }
 
 /* Contenuto mail */
+strong::before{
+  content: "\2605";
+  margin-right: 5px;
+  color: black;
+}
+
 .text_email{
   color: lightgrey;
+}
+
+.text_email::before{
+  content: "\2630";
+  color: #800000;
+  margin-right: 5px;
 }
 
 /* Firma */
