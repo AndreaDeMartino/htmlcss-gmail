@@ -1,0 +1,86 @@
+/* box-sizing (limita ridimensionamento da padding) */
+*{
+  box-sizing: border-box;
+}
+
+/* Regole Generali e Background*/
+body{
+  background-image: url('../img/sfondo.jpeg');
+  /* Sfondo Full Screen */
+  background-size: cover;
+  /* Font di base*/
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 30px;
+  color: rgb(255,255,255);
+}
+
+/* Testata */
+header{
+  border-bottom:3px solid white;
+}
+
+/* Container per centrare la pagina*/
+#container{
+  width: 50%;
+  /* no margini e centrato grazie ad auto */
+  margin: 50px auto;
+}
+
+/* Logo Gmail */
+#logo-img{
+  margin: 0 auto;
+  width: 250px;
+  vertical-align: middle;
+}
+
+/* Testo Gmail */
+#logo-testo{
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 100px;
+}
+
+/* Messaggio Avviso email */
+#unread{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+/* Numero mail non lette */
+.unreadnumber{
+  display:inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  width:50px;
+  height:50px;
+  background-color:red;
+}
+
+/* Elenco righe mail */
+.email-row{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-image: url("../img/mail_sfondo.jpg");
+  font-size: 20px;
+  padding:2px;
+  border-radius: 3px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+/* Contenuto mail */
+.text_email{
+  color: lightgrey;
+}
+
+/* Firma */
+#firma{
+  margin-top: 10px;
+  border-top: 2px solid white;
+  padding:3px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+  background-color: #e60000;
+}

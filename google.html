@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- font header -->
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font body -->
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/google.css">
+    <!-- font firma -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/google.css">
+    <title>Test Google</title>
+  </head>
+
+  <body>
+    <!-- Container -->
+    <div id="container">
+      <!-- Testata con logo -->
+      <header>
+        <img id="logo-img" src="img/logo.png" alt="Gmail">
+        <span id= "logo-testo">Gmail 2.0</span>
+      </header>
+
+      <main>
+        <!-- Sezione ricerca e avvisi -->
+        <section id="searchsec">
+           <input type="text" name="search" value="" placeholder="Search">
+           <input type="submit" name="submit" value="GO">
+           <div id="unread">
+             You have <span class="unreadnumber">30</span> unread email
+           </div>
+        </section>
+        <!-- Sezione elenco mail -->
+        <section id="email-list">
+          <div class="email-row">
+            <input type="checkbox" name="mail1" value="">
+            <span>&star;</span>
+            <strong>Mail Object</strong>
+            <span class="text_email">Mail Text</span>
+          </div>
+          <div class="email-row">
+            <input type="checkbox" name="mail1" value="">
+            <span>&star;</span>
+            <strong>Mail Object</strong>
+            <span class="text_email">Mail Text</span>
+          </div>
+          <div class="email-row">
+            <input type="checkbox" name="mail1" value="">
+            <span>&star;</span>
+            <strong>Mail Object</strong>
+            <span class="text_email">Mail Text</span>
+          </div>
+        </section>
+      </main>
+      <!-- Firma -->
+      <footer id="firma"> Powered by Andrea De Martino&copy;</footer>
+    </div>
+  </body>
+</html>
